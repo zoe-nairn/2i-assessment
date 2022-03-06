@@ -1,0 +1,5 @@
+X, A = [int(val) for val in input().split()]
+A = A+2
+for mult in range (A, X*3+1):
+    if mult % A == 0:
+        print(mult, end=" ")
